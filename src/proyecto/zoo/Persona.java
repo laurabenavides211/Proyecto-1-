@@ -36,6 +36,13 @@ public class Persona{
         this.edad=edad;
         this.genero=genero;
     }
+    //Creación de un constructor con cuatro parametros
+    public Persona(String id, String nombre, int edad, String celular){
+        this.id=id;
+        this.nombre=nombre;
+        this.edad=edad;
+        this.celular=celular;
+    }
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
