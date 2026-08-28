@@ -12,8 +12,10 @@ package proyecto.zoo;
 //Aplicación de la herencia de la subclase Empleado con la superclase Persona
 public class Empleado extends Persona{
     //Creación de atrubutos privados de la subclase Empleado
-    private String cargo="";
-    private String horario="";
+    private String cargo;
+    private String horario;
+    //Creación de constructor vacio de la subclase Empleado
+    public Empleado(){}
     
     public String getCargo(){
         return cargo;
