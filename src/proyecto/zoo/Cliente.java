@@ -24,6 +24,12 @@ public class Cliente extends Persona{
         this.fechaSalida=fechaSalida;
     
     }
+    public Cliente(String fechaIngreso, String fechaSalida, String nombre){
+        super(nombre);
+        this.fechaIngreso=fechaIngreso;
+        this.fechaSalida=fechaSalida;
+
+    }
     
       //Creación de metodos getters y setters
     

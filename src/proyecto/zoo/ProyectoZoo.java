@@ -20,6 +20,8 @@ public class ProyectoZoo {
         System.out.println(persona3.getNombre()+ persona3.getId());
         Empleado empleado2=new Empleado("Veterinario", "Jose");
         System.out.println(empleado2.getCargo()+ " - "+empleado2.getNombre());
+        Cliente cliente2 =new Cliente("27/08/2026 9:00am", "27/08/2026 4:30pm", "Liam Camilo");
+        System.out.println(cliente2.getFechaIngreso()+ " "+ cliente2.getFechaSalida() +" " +cliente2.getNombre());
 
         Persona persona1 = new Persona();
         persona1.getNombre();
