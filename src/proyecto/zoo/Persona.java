@@ -30,6 +30,12 @@ public class Persona{
         this.nombre=nombre;
                 
     }   
+    //Creación de un constructor con tres parametros
+    public Persona(String nombre, int edad, String genero){
+        this.nombre=nombre;
+        this.edad=edad;
+        this.genero=genero;
+    }
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
