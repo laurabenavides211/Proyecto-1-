@@ -9,6 +9,7 @@ package proyecto.zoo;
  * @author uestudiantes
  */
  //Crear clase hija Cliente
+//Aplicación de la herencia de la subclase Cliente con la superclase Persona
 public class Cliente extends Persona{
     private String fechaIngreso;
     private String fechaSalida;
