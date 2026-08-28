@@ -19,6 +19,11 @@ public class Cliente extends Persona{
     public Cliente(String fechaIngreso){
         this.fechaIngreso=fechaIngreso;
     }
+    public Cliente(String fechaIngreso, String fechaSalida){
+        this.fechaIngreso=fechaIngreso;
+        this.fechaSalida=fechaSalida;
+    
+    }
     
     public String getFechaIngreso(){
         return fechaIngreso;
