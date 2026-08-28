@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+//Creacion de la subclase Tipo_Planta de la super clase Planta
 public class Tipo_Planta extends Planta {
 
     private String especiePlanta = "";
