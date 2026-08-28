@@ -16,6 +16,10 @@ public class Empleado extends Persona{
     private String horario;
     //Creación de constructor vacio de la subclase Empleado
     public Empleado(){}
+    //Creación de un constructor con un parametro
+    public Empleado(String cargo){
+        this.cargo=cargo;
+    }
     
     public String getCargo(){
         return cargo;
