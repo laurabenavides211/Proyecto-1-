@@ -17,6 +17,9 @@ public class ProyectoZoo {
         // TODO code application logic here
         
         Persona persona3=new Persona("PER 03","Laura ");
+        System.out.println(persona3.getNombre()+ persona3.getId());
+        Empleado empleado2=new Empleado("Veterinario", "Jose");
+        System.out.println(empleado2.getCargo()+ " - "+empleado2.getNombre());
 
         Persona persona1 = new Persona();
         persona1.getNombre();
