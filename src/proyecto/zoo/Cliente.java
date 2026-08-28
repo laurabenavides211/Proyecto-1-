@@ -25,6 +25,8 @@ public class Cliente extends Persona{
     
     }
     
+      //Creación de metodos getters y setters
+    
     public String getFechaIngreso(){
         return fechaIngreso;
     }

@@ -15,6 +15,8 @@ public class ProyectoZoo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Persona persona3=new Persona("PER 03","Laura ");
 
         Persona persona1 = new Persona();
         persona1.getNombre();
