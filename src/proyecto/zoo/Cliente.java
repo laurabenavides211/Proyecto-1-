@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+ //Crear clase hija Cliente
 public class Cliente extends Persona{
     private String fechaIngreso;
     private String fechaSalida;
