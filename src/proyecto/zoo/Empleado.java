@@ -31,6 +31,7 @@ public class Empleado extends Persona{
         this.cargo= cargo;
         this.horario=horario;
     }
+    //Creación de metodos getters y setters
 
     
     public String getCargo(){
