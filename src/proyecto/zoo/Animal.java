@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+//Creacion de superclase Animal
 public class Animal {
     String id;
     String nombre;
