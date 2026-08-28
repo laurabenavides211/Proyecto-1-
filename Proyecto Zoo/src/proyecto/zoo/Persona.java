@@ -16,8 +16,8 @@ public class Persona{
     private String celular;
 
     public Persona(){}
-    public Persona(String id){
-        this.id=id;
+    public Persona(String nombre){
+        this.nombre=nombre;
     }
     public Persona(String id, String nombre){
         this.id=id;
