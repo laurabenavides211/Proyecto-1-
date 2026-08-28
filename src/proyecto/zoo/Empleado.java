@@ -26,6 +26,11 @@ public class Empleado extends Persona{
         this.cargo=cargo;
         
     }
+    public Empleado(String nombre, String cargo,  String horario){
+        super(nombre);
+        this.cargo= cargo;
+        this.horario=horario;
+    }
 
     
     public String getCargo(){
