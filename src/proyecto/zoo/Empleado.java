@@ -9,6 +9,7 @@ package proyecto.zoo;
  * @author uestudiantes
  */
  //Creación de la subclase Empleado 
+//Aplicación de la herencia de la subclase Empleado con la superclase Persona
 public class Empleado extends Persona{
     private String cargo="";
     private String horario="";
