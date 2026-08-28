@@ -11,6 +11,7 @@ package proyecto.zoo;
  //Crear clase hija Cliente
 //Aplicación de la herencia de la subclase Cliente con la superclase Persona
 public class Cliente extends Persona{
+    //Creación de atrubutos privados de la subclase Cliente
     private String fechaIngreso;
     private String fechaSalida;
     
