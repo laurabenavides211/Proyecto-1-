@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+//creación de la subclase Raza de la super clase Animal
 public class Raza extends Animal{
     String tipoRazaAnimal;
     
