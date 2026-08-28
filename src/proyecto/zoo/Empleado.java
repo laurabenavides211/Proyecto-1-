@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+ //Creación de la subclase Empleado 
 public class Empleado extends Persona{
     private String cargo="";
     private String horario="";
