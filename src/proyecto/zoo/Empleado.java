@@ -20,6 +20,13 @@ public class Empleado extends Persona{
     public Empleado(String cargo){
         this.cargo=cargo;
     }
+    //Creción de un constructor con dos parametros 
+    public Empleado(String cargo, String nombre){
+        super(nombre);
+        this.cargo=cargo;
+        
+    }
+
     
     public String getCargo(){
         return cargo;
