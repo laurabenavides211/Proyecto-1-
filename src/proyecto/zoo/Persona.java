@@ -19,6 +19,11 @@ public class Persona{
 
     
     //Crear constructor vacio
+    public Persona(){}
+    //Creación de un constructor con un parametro
+    public Persona(String id){
+        this.id=id;
+    }
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
