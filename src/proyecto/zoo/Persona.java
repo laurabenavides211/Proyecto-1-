@@ -24,6 +24,12 @@ public class Persona{
     public Persona(String id){
         this.id=id;
     }
+    //Creación de un constructor con dos parametros
+    public Persona(String id, String nombre){
+        this.id=id;
+        this.nombre=nombre;
+                
+    }   
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
