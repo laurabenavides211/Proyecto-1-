@@ -18,7 +18,7 @@ public class Persona{
     private String celular="";
 
     
-    
+    //Crear constructor vacio
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
