@@ -43,6 +43,15 @@ public class Persona{
         this.edad=edad;
         this.celular=celular;
     }
+    //Creación de un constructor con cinco parametros
+    public Persona(String id, String nombre, int edad, String genero, String celular){
+        this.id=id;
+        this.nombre=nombre;
+        this.edad=edad;
+        this.genero=genero;
+        this.celular=celular;
+    
+    }
     public void ingreso(){
         System.out.println(nombre + " ingresó");
     }
