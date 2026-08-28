@@ -8,6 +8,7 @@ package proyecto.zoo;
  *
  * @author uestudiantes
  */
+//Creacion de super clase Planta
 public class Planta {
     private String id = "";
     private String nombre = "";
