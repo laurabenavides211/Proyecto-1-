@@ -52,9 +52,15 @@ public class Persona{
         this.celular=celular;
     
     }
-    public void ingreso(){
-        System.out.println(nombre + " ingresó");
+    //Creación de los metodos getters y setters de los atributos
+    public String getId(){
+        return id;
     }
+    
+    public void setId(String id){
+        this.id= id;
+    }
+    
     
     public String getNombre(){
         return nombre;
@@ -83,6 +89,9 @@ public class Persona{
     }
     public void setCelular(String celular){
         this.celular= celular;
+    }
+    public void ingreso(){
+        System.out.println(nombre + " ingresó");
     }
    
    
