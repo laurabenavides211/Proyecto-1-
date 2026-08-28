@@ -10,6 +10,7 @@ package proyecto.zoo;
  */
 //Creación superclase Persona
 public class Persona{
+    //Creación de atrubutos de la super clase Persona
     private String id="";
     private String nombre="";
     private int edad=0;
